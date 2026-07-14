@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function BookingPage(): JSX.Element {
+export default function BookingPage() {
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [guests, setGuests] = useState(1);
