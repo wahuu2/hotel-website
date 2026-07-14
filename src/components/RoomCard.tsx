@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Room } from "../data/rooms";
+import { Room } from "@/data/rooms";
 
 interface RoomCardProps {
   room: Room;
 }
 
-export default function RoomCard({ room }: RoomCardProps): JSX.Element {
+export default function RoomCard({ room }: RoomCardProps) {
   return (
     <div className="border rounded-lg shadow-md overflow-hidden bg-white dark:bg-zinc-900">
       <Image

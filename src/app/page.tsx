@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home(): JSX.Element {
+export default function Home(){
   return (
     <section className="relative w-full h-screen">
       {/* Hero Background */}
